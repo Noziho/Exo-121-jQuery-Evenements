@@ -1,3 +1,4 @@
-$("selector").method("event", function(){
+$("p").on('auxclick', function(){
     $(this).hide();
 });
+
